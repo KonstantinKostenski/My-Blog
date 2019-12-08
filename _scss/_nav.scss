@@ -6,9 +6,11 @@
         li{
             margin-right: 2em;
             padding: 1em;
+            height: 4em;
             &::before{
                 content: "";
                 height: 2px;
+                color:yellow;
                 width: auto;
                 display: none;
             }
