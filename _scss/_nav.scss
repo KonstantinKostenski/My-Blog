@@ -6,15 +6,16 @@
         li{
             margin-right: 2em;
             padding: 1em;
+            &::before{
+                height: 2px;
+                width: auto;
+                visibility: hidden;
+            }
+            &:hover::before{
+                visibility: visible;
+            }
         }
-        li::before{
-            height: 2px;
-            width: auto;
-            visibility: hidden;
-        }
-            // li:hover::before{
-            //     visibility: visible;
-            // }
+        
         a{
             text-decoration: none;
         }
