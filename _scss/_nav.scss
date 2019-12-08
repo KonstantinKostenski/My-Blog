@@ -12,7 +12,7 @@
                 width: auto;
                 visibility: hidden;
             }
-            &:hover::before{
+            &::before:hover{
                 content: "";
                 visibility: visible;
             }
