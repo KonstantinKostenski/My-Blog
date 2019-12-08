@@ -13,6 +13,7 @@
                 visibility: hidden;
             }
             &:hover::before{
+                content: "";
                 visibility: visible;
             }
         }
