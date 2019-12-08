@@ -12,9 +12,9 @@
             width: auto;
             visibility: hidden;
         }
-        li:hover::before{
-            visibility: visible;
-        }
+            // li:hover::before{
+            //     visibility: visible;
+            // }
         a{
             text-decoration: none;
         }
