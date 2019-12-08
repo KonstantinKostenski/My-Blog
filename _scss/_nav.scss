@@ -10,11 +10,10 @@
                 content: "";
                 height: 2px;
                 width: auto;
-                visibility: hidden;
+                display: none;
             }
-            &::before:hover{
-                content: "";
-                visibility: visible;
+            &:hover::before{
+                display: block;
             }
         }
         
