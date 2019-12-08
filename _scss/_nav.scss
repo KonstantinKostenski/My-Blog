@@ -7,6 +7,16 @@
             margin-right: 2em;
             padding: 1em;
         }
+        li::before{
+            height: 2px;
+            width: auto;
+            visibility: hidden;
+        }
+        li:hover::before{
+            visibility: visible;
+        }
+        a{
+            text-decoration: none;
+        }
     }
-    
 }
