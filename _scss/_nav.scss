@@ -1,26 +1,39 @@
 .navigation{
+    height: auto;
+    background-color: lightblue;
+
     ul{
         display: flex;
         list-style: none;
         justify-content: center;
         li{
             margin-right: 2em;
-            padding: 1em;
-            height: 4em;
+            font-size: 2rem;
             &::before{
                 content: "";
-                height: 2px;
-                background-color:yellow;
+                height: 5px;
+                background-color:beige;
                 width: auto;
-                visibility: hidden;
+                display: block;
+                opacity:0;
+                margin-bottom: auto;
+                transition-property: opacity;
+                transition-timing-function: ease-in;
+                transition-duration: 200ms;
             }
             &:hover::before{
-                visibility: visible;
+                opacity: 1;
+            }
+
+            &:hover{
+                background-color: rgb(110, 205, 240);
             }
         }
         
         a{
+            padding: 0.2rem;
             text-decoration: none;
+            color: black;
         }
     }
 }
