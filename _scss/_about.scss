@@ -19,18 +19,24 @@
         margin-bottom: 1rem;
     }
 
-    @media screen and (min-width: $large) {
-        .about-text{
-            font-size: 0.5rem;
-        }
-    }
-    
     .about-text{
         width: 70%;
         margin: 0 auto;
         text-align: center;
         font-size: 2.5rem;
     }
+
+    @media screen and (max-width: $large) {
+        .about-title{
+            font-size: 2rem !important;
+        }
+
+        .about-text{
+            font-size: 1.5rem !important;
+        }
+    }
+    
+    
     
 }
 

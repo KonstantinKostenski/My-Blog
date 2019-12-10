@@ -29,6 +29,18 @@
                 background-color: rgb(110, 205, 240);
             }
         }
+
+        @media screen and (max-width: $large) {
+            width: 50%;
+            margin: 0 auto;
+            flex-direction: column;
+            text-align: center;
+            
+            li{
+                font-size: 5rem !important;
+                margin-right: 0;
+            };
+        }
         
         a{
             padding: 0.2rem;
