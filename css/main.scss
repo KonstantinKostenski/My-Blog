@@ -1,7 +1,11 @@
 ---
 ---
+$small: 320px;
+$large: 1200px;
+$title-font-size: 2rem;
 @import "_reset.scss";
 @import"_typography.scss";
 @import "_nav.scss";
 @import"_footer.scss";
 @import"_home.scss";
+@import"_about.scss";
